@@ -17,16 +17,15 @@ int main(void)
 	{
 		for (num = '1'; num <= '9'; num++)
 		{
-		    if (num != number)
-		    {
-		        putchar(number);
-		        putchar(num);
-
-		        if (number+num >! 89)
-		        {
-		            putchar(',');
-		            putchar(' ');
-		        } 
+			if (num!=number)
+			{
+				putchar(number);
+				putchar(num);
+				if (number+num >! 89)
+				{
+					putchar(',');
+					putchar(' ');
+				} 
 		    }
 			
 		}
