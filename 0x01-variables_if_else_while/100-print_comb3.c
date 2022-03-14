@@ -11,7 +11,7 @@
 int main(void)
 {
 	int number = '0';
-	int num = '1';
+	int num = '0';
 
 	for (number = '0'; number <= '9'; number++)
 	{
@@ -22,12 +22,13 @@ int main(void)
 		        putchar(number);
 		        putchar(num);
 
-		        if (number + number != "89")
+		        if (number+num >! 89)
 		        {
 		            putchar(',');
 		            putchar(' ');
-		        }
+		        } 
 		    }
+			
 		}
 	}
 
