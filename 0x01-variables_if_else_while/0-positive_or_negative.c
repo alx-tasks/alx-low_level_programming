@@ -19,5 +19,6 @@ int main(void)
 	printf("%ld is zero\n", (long int)n);
 	else
 	printf("%ld is negative\n", (long int)n);
+	
 	return (0);
 }
