@@ -10,14 +10,11 @@
  */
 int main(void)
 {
-	char ch = 'a';
+	int number = '0';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (number = '0'; number <= '9'; number++)
 	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
+		putchar(number);
 	}
 
 	putchar('\n');
