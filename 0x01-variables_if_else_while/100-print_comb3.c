@@ -11,15 +11,20 @@
 int main(void)
 {
 	int number = '0';
+	int num = '0';
 
 	for (number = '0'; number <= '9'; number++)
 	{
-		putchar(number);
-
-		if (number != '9')
+		for (num = '0'; num <= '9'; number++)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(number);
+			putchar(num);
+
+			if (number != '9'  && num != '9')
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 
