@@ -11,22 +11,19 @@
 int main(void)
 {
 	int number = '0';
-	int num = '0';
 
-	for (number = '0'; number <= '100'; number++)
-	{
-		for (num = '0'; num <= '9'; number++)
-		{
-			putchar(number);
-			putchar(num);
-
-			if (number != '9'  && num != '9')
-			{
-				putchar(',');
-				putchar(' ');
-			}
-		}
-	}
+    for (number; number <= '9'; number++)
+    {
+        for (int num = '1'; num <= '9'; num++)
+        {
+            if (number != num)
+            {
+                putchar(number);
+                putchar(num);
+                putchar(',');
+            }
+        }
+    }
 
 	putchar('\n');
 
