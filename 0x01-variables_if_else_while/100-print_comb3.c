@@ -10,17 +10,18 @@
  */
 int main(void)
 {
-	int number = 0;
+	int number = '0';
+	int num = '1';
 
 	for (number = '0'; number <= '9'; number++)
 	{
-		for (int num = '1'; num <= '9'; num++)
+		for (num = '1'; num <= '9'; num++)
 		{
 		    if (num != number)
 		    {
 		        putchar(number);
 		        putchar(num);
-		        
+
 		        if (number + number != "89")
 		        {
 		            putchar(',');
