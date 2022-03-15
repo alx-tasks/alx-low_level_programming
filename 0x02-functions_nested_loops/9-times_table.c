@@ -1,5 +1,3 @@
-#include "holberton.h"
-
 /**
  * times_table - this function prints the times table of 9.
  *
