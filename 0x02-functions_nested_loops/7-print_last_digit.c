@@ -6,15 +6,19 @@
  */
 
 int print_last_digit(int c)
-{
-	int last_digit = c % 10;
+{	
+	int last_digit;
 
-	if (c < 0)
+	if (c > 0)
 	{
-		last_digit = last_digit * -1;
+		last_digit = c % 10;
+	}
+	else
+	{
+		last_digit = (c * -1) % 10;
 	}
 
-	printf(last_digit + '0');
+	printf("%d", last_digit);
 
 	return last_digit;
 }
