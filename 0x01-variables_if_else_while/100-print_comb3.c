@@ -11,9 +11,9 @@
 int main(void)
 {
 	int number = '0';
-	int num = '0';
+	int num;
 
-	for (number = '0'; number <= '9'; number++)
+	for (number; number <= '9'; number++)
 	{
 		for (num = '1'; num <= '9'; num++)
 		{
