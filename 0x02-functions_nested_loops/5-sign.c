@@ -1,5 +1,3 @@
-#include "holberton.h"
-
 /**
  * print_sign - this function prints sign of a value.
  *
