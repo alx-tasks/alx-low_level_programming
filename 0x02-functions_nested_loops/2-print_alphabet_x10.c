@@ -4,7 +4,7 @@
  * print_alphabet_x10 - this function prints out alphabet in lowercase.
  *
  * description:
- * 	print_alphabet_x10()
+ *    print_alphabet_x10();
  */
 
 void print_alphabet_x10(void)
@@ -20,6 +20,6 @@ void print_alphabet_x10(void)
 			_putchar(i);
 		}
 
-		_putchar(n);
+		_putchar('\n');
 	}
 }
