@@ -3,6 +3,9 @@
  *
  * @s: value of string
  *
+ * description:
+ *    _strlen(); --> int
+ *
  * Return int
  */
 
