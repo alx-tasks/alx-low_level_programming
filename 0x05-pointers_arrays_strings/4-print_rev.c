@@ -21,5 +21,5 @@ void print_rev(char *str)
         j--;
     }
 
-    printf("%s\n", str);
+    printf(str);
 }
