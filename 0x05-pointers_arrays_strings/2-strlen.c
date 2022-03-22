@@ -1,9 +1,9 @@
 /**
- * _strlen - check string length.
+ * _strlen - checks the length of a string.
  *
- * @s: value of string
+ * @s: value string
  *
- * @return: int
+ * Return: int
  */
 
 int _strlen(char *s)
@@ -16,5 +16,5 @@ int _strlen(char *s)
 		s++;
 	}
 
-	return length;
+	return (length);
 }
