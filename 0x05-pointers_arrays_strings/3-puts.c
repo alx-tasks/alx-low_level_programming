@@ -1,15 +1,16 @@
-/**
- * _puts - prints a string followed by a new line
- * @str: string it receives as a parameter
- *
- * Return: void
- */
+#include <unistd.h>
 
+/**
+ * _puts - Prints a string followed by a newline.
+ *
+ * @str: value string
+ */
 void _puts(char *str)
 {
 	while (*str != '\0')
 	{
-		_putchar(*str++);
+		write(1, &(*str++), 1);
 	}
-	_putchar('\n');
+
+	write(1, '\n', 1);
 }
