@@ -1,5 +1,4 @@
 #include <unistd.h>
-
 /**
  * _puts - Prints a string followed by a newline.
  *
@@ -7,7 +6,7 @@
  */
 void _puts(char *str)
 {
-    char newline = '\n';
+	char newline = '\n';
 
 	while (*str != '\0')
 	{
