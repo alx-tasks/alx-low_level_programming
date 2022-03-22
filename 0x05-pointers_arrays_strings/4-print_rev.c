@@ -1,20 +1,20 @@
-#include <unistd.h>
 #include <string.h>
 
 /**
- * print_rev - prints a string in reverse.
+ * print_rev - prints a string in reverse
  *
  * @s: value string
  */
-
 void print_rev(char *s)
 {
-    int i = strlen(s) - 1;
+	int len, i;
 
-	for (i; i >= 0; i--)
+	len = strlen(s);
+
+	for (i = (len - 1); i >= 0; i--)
 	{
-		putchar(s[i]);
+		_putchar(*(s + i));
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
