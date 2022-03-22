@@ -3,10 +3,7 @@
  *
  * @s: value of string
  *
- * description:
- *    _strlen(); --> int
- *
- * Return int
+ * @return: int
  */
 
 int _strlen(char *s)
