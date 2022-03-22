@@ -1,8 +1,7 @@
 /**
- * reset_to_98 - Update the value of an int pointer into 98
+ * reset_to_98 - Updates the value of an int pointer into 98.
  * 
- * description:
- *    reset_to_98(int *n);
+ * @n: int pointer parameter
  */
 void reset_to_98(int *n)
 {
