@@ -1,3 +1,5 @@
+#include "_putchar.c"
+
 /**
  * _puts - Prints a string followed by a newline.
  *
