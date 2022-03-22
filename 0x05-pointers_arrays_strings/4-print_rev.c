@@ -4,18 +4,25 @@
 /**
  * print_rev - prints a string in reverse
  *
- * @s: value string
+ * @str: value string
  */
-void print_rev(char *s)
+void print_rev(char *str)
 {
-	int len, i;
+	int i, j, count = 0;
+	char rev[100];
 
-	len = strlen(s);
-
-	for (i = (len - 1); i >= 0; i--)
+	while (str[count] != '\0')
 	{
-		putchar(*(s + i));
+		count++;
 	}
 
-	putchar('\n');
+	j = count - 1;
+
+	for (i = 0; i < count; i++)
+	{
+		rev[i] = str[j];
+		j--;
+	}
+
+	printf("%s", rev);
 }
