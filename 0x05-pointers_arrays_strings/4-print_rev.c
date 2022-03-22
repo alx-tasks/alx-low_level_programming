@@ -8,21 +8,18 @@
  */
 void print_rev(char *str)
 {
-	int i, j, count = 0;
-	char rev[100];
+	char temp;
+    int i=0, j=0;
+    j=strlen(str)-1;
 
-	while (str[count] != '\0')
-	{
-		count++;
-	}
+    while(i<j)
+    {
+        temp=str[j];
+        str[j]=str[i];
+        str[i]=temp;
+        i++;
+        j--;
+    }
 
-	j = count - 1;
-
-	for (i = 0; i < count; i++)
-	{
-		rev[i] = str[j];
-		j--;
-	}
-
-	printf("%s", rev);
+    printf("%s", str);
 }
