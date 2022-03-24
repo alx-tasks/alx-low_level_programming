@@ -1,7 +1,7 @@
 #include <string.h>
 
 /**
- * *_strncat - concatenates src to dest
+ * _strncat - concatenates src to dest
  * 
  * @dest: char dest
  * @src: char src
@@ -9,7 +9,6 @@
  *
  * Return: dest
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, dest_len = 0;
