@@ -1,5 +1,5 @@
 /**
- * *_strcat - Concatenates two strings.
+ * _strcat - Concatenates two strings.
  *
  * @dest: char dest pointer
  * @src: char source of copy
@@ -8,6 +8,14 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	strcpy (dest + strlen (dest), src);
+    int i = 0, len = strlen(src) - 1;
+
+    for (i = 0; src[i] != '\0'; i++)
+	{
+		dest[len + i] = src[i];
+	}
+
+	dest[len + i] = '\0';
+
 	return dest;
 }
