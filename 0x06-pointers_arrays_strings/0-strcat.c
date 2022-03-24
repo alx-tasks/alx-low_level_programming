@@ -11,8 +11,8 @@
 char *_strcat(char *dest, char *src)
 {
 	char *save = dest;
-	
+
 	for (; *dest; ++dest);
 	while (*dest++ = *src++);
-	return(save);
+	return save;
 }
