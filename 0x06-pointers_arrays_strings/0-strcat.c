@@ -1,12 +1,10 @@
 /**
- * _strcat - concatenates src to dest
- * 
- * @dest: char dest
- * @src: char src
+ * *_strcat - concatenates src to dest
+ * @dest: destination address pointed to
+ * @src: source addressed copied from
  *
  * Return: dest
  */
-
 char *_strcat(char *dest, char *src)
 {
 	int i, dest_len = 0;
