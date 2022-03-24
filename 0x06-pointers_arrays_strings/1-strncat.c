@@ -1,9 +1,11 @@
+#include <string.h>
+
 /**
  * *_strncat - concatenates src to dest
  * 
  * @dest: char dest
- * @src: source addressed copied from
- * @n: number of bytes to be concatenated
+ * @src: char src
+ * @n: int n
  *
  * Return: dest
  */
@@ -18,7 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 	for (i = 0; i < n && src[i] != '\0'; i++)
 		dest[dest_len + i] = src[i];
 
-	dest[dest_len + i] = '\0';
+	dest[strlen(dest)] = '\0';
 
 	return (dest);
 }
