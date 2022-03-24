@@ -1,7 +1,7 @@
 /**
  * *_strncat - concatenates src to dest
  * 
- * @dest: char desct
+ * @dest: char dest
  * @src: source addressed copied from
  * @n: number of bytes to be concatenated
  *
