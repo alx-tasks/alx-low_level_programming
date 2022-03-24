@@ -1,5 +1,6 @@
 /**
  * _strncat - concatenates src to dest
+ * 
  * @dest: destination address pointed to
  * @src: source addressed copied from
  * @n: number of bytes to be concatenated
