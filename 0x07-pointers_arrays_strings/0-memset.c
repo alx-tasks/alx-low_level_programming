@@ -1,6 +1,5 @@
 /**
  * _memset - Sets the memory address 's' with constant byte 'b'.
- * 
  * @s: char s
  * @b: char b
  * @n: number bytes to filled
