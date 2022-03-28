@@ -1,12 +1,10 @@
-#include "holberton.h"
-
 /**
  * _strstr - finds the first occurrence of the substring needle in the string haystack.
  *           The terminating null bytes (\0) are not compared.
  * @haystack: char *haystack
  * @needle: char *needle
  *
- * Return: pointer to this occurence in @haystack
+ * Return: char *haystack
  */
 
 char *_strstr(char *haystack, char *needle)
